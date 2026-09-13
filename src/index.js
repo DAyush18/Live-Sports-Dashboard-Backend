@@ -19,7 +19,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(cors({
-  origin: 'https://live-sports-dashboard-frontend-git-main-dayush18s-projects.vercel.app',
+  origin: 'https://live-sports-dashboard-frontend.vercel.app',
   credentials: true // if you're using cookies/auth
 }));
 
